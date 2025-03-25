@@ -1,3 +1,4 @@
+/* Body Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -9,6 +10,7 @@ body {
     height: 100vh;
 }
 
+/* Container Styling */
 .container {
     text-align: center;
     background-color: #fff;
@@ -17,10 +19,12 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Heading Styling */
 h1 {
     color: #333;
 }
 
+/* Button Styling */
 button {
     padding: 10px 20px;
     margin-top: 10px;
@@ -29,8 +33,23 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
     background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Message Styling */
+#message {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+#message.show {
+    opacity: 1;
 }
