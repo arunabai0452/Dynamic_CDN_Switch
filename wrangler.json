@@ -1,5 +1,5 @@
 {
-  "name": "dynamic-cdn-switch",
+  "name": "dynamiccdnswitch",
   "compatibility_date": "2025-03-25",
   "assets": {
     "directory": "./public" 
